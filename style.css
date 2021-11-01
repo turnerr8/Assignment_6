@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./media/space.jpeg");
+    padding: 0 1em;
+}
+
+h1 {
+    text-align: center;
+    margin: .5em;
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+span {
+    font-family: monospace;
+}
+
+ul {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.astro-list {
+    width: 19vw;
+    margin: 1em;
+}
+
+.flipped {
+    transform: scaleX(-1);
+}
