@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
     //gets data and destributes it
-    $.getJSON('http://api.open-notify.org/astros.json?callback=?', function(data) {
+    $.getJSON("astros.json", function(data) {
         var number = data['number'];
         $('#num').html(number);
 
@@ -37,10 +37,5 @@ $(document).ready(function () {
 
      
     });
-
-
-    
-
-
 
 });
