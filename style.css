@@ -26,7 +26,10 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+}
 
+.l-items {
+    height: 23em;
 }
 
 .astro-list {
@@ -36,4 +39,18 @@ ul {
 
 .flipped {
     transform: scaleX(-1);
+}
+
+.astro-name {
+    color: white;
+    text-align: center;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
